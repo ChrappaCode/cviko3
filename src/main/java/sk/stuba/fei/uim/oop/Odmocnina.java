@@ -16,7 +16,7 @@ public class Odmocnina {  //odmocnina
         if(x>=0){
             do {
 
-               if( s*s>=x ){
+               if( s*s >= x ){
                    h = s;
                }
                else{
