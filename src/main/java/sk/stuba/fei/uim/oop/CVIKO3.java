@@ -6,12 +6,19 @@ public class CVIKO3 {
     public static void main(String[] args) {
 
         Auto skoda = new Auto();
+        System.out.println("skoda:");
+        /*skoda.setStavNadrze(100);
+        skoda.setKapacitaNadrze(100);*/
 
-        skoda.setStavNadrze(50);
+        System.out.println(skoda.stav());
         skoda.jazdi(100);
-        System.out.println("stav nadrze: "+skoda.getStavNadrze());
-        skoda.jazdi(200);
-        System.out.println("stav nadrze: "+skoda.getStavNadrze());
+        System.out.println(skoda.stav());
+
+        Auto fiat = new Auto(50);
+        System.out.println("fiat:");
+        System.out.println(fiat.stav());
+        fiat.jazdi(20);
+        System.out.println(fiat.stav());
 
         /*
        Auto bmw = new Auto();
