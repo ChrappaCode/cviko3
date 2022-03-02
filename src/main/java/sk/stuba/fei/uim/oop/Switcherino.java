@@ -22,7 +22,7 @@ public class Switcherino {
 
         }
 
-        System.out.println(den);
+        System.out.println("Dnes je "+den);
 
     }
 }
