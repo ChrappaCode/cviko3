@@ -1,5 +1,7 @@
 package sk.stuba.fei.uim.oop;
 
+import sk.stuba.fei.uim.oop.auto.Auto;
+
 public class CVIKO3 {
     public static void main(String[] args) {
 
