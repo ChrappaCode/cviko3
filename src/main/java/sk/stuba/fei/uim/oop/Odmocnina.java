@@ -2,7 +2,7 @@ package sk.stuba.fei.uim.oop;
 
 import sk.stuba.fei.uim.oop.utility.ZKlavesnice;
 
-public class Main {  //odmocnina
+public class Odmocnina {  //odmocnina
     public static void main(String[] args) {
 
         double x = ZKlavesnice.readDouble("Zadaj cislo ");
