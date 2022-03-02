@@ -8,7 +8,8 @@ public class Vynechaj_negativne {
         for (int i = 0; i < n ; i++){
 
             int x = Integer.parseInt(args[i]);
-
+            if(x < 0)
+                continue;
             System.out.println("args" + i + " : " + x);
 
         }
