@@ -4,7 +4,15 @@ public class CVIKO3 {
     public static void main(String[] args) {
 
         Auto skoda = new Auto();
-        Auto bmw = new Auto();
+
+        skoda.setStavNadrze(50);
+        skoda.jazdi(100);
+        System.out.println("stav nadrze: "+skoda.getStavNadrze());
+        skoda.jazdi(200);
+        System.out.println("stav nadrze: "+skoda.getStavNadrze());
+
+        /*
+       Auto bmw = new Auto();
 
         skoda.jedna = 1;
         bmw.jedna = 2;
@@ -14,6 +22,8 @@ public class CVIKO3 {
         }
         else
             System.out.println("ziadny zazrak");
+        */
+
 
 
 
