@@ -31,7 +31,7 @@ public class Pole_poly_pol_poly {
             System.out.print(pole[y]+", ");
         }
         System.out.println();
-        System.out.println("obsah premennej pole je "+pole);
+        System.out.println("obsah premennej pole je "+ pole);
 
     }
 }
