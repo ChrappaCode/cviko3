@@ -1,6 +1,7 @@
 package sk.stuba.fei.uim.oop;
 
 import sk.stuba.fei.uim.oop.auto.Auto;
+import sk.stuba.fei.uim.oop.auto.Vozidlo;
 import sk.stuba.fei.uim.oop.utility.KeyboardInput;
 import sk.stuba.fei.uim.oop.utility.ZKlavesnice;
 
@@ -55,6 +56,7 @@ public class CVIKO3 {
         vek = scanner.nextInt();
         System.out.println("vek scanner input: "+vek);
 
+        //////////////////////////////////////////////////
 
 
 
