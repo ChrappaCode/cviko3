@@ -1,5 +1,7 @@
 package sk.stuba.fei.uim.oop.auto;
 
+import java.util.Random;
+
 public class Auto {
 
     public static final double PAVILO_NA_KM = 0.2;
@@ -7,6 +9,7 @@ public class Auto {
     private double kapacitaNadrze;
     private double stavNadrze;
     private boolean ojazdene;
+    private final Random random; // generuje random cisla
 
     public Auto(){
         this(KAPACITA_NADRZE);
@@ -16,6 +19,7 @@ public class Auto {
         this.ojazdene = true;
         this.kapacitaNadrze = kapacitaNadrze;
         this.stavNadrze = 50;
+        this.random = new Random();
     }
 
 
@@ -36,7 +40,7 @@ public class Auto {
         } else {
             vysledok = "Auto je neojazdene";
         }
-        vysledok += " * stav nadrze: " + stavNadrze + "/" + kapacitaNadrze;
+        vysledok += " * stav nadrze: " + stavNadrze + "/" + kapacitaNadrze + " " + random.nextInt(51);
         return vysledok;
     }
 
